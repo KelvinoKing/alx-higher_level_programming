@@ -11,3 +11,5 @@
 **4-print-float.py** -> *Prints float stored in a var with a precission of 2 digits*
 
 **5-print-string.py** -> *Prints 3 times a string stored in the var str, followed by its first 9 characters*
+
+**6-concat.py** -> *Concatenates to strings*
