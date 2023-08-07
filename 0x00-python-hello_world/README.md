@@ -7,3 +7,5 @@
 **2-print.py** -> *Python script that prints a string*
 
 **3-print-number.py** -> *Prints an integer stored in a variable followed by a sring*
+
+**4-print-float.py** -> *Prints float stored in a var with a precission of 2 digits*
