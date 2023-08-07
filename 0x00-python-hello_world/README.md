@@ -17,3 +17,5 @@
 **7-edges.py** -> *Copy-Cut-Paste*
 
 **8-concat-edges.py** -> *Create a new sentence from an old one*
+
+**9-easter-egg.py** -> "Prints The Zen of Python by TimPeters"
