@@ -23,3 +23,5 @@
 **10-check-cycle.c** -> *Checks whether a singly linked list has a cycle*
 
 **lists.h** -> *Header file*
+
+**100-write.py** -> *Writes a string to stdout*
