@@ -18,4 +18,8 @@
 
 **8-concat-edges.py** -> *Create a new sentence from an old one*
 
-**9-easter-egg.py** -> "Prints The Zen of Python by TimPeters"
+**9-easter-egg.py** -> *Prints The Zen of Python by TimPeters*
+
+**10-check-cycle.c** -> *Checks whether a singly linked list has a cycle*
+
+**lists.h** -> *Header file*
