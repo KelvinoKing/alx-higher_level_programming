@@ -7,3 +7,5 @@
 **3-print-alphabt.py** -> *Prints the ASCII alphabets excluding q & e*
 
 **4-print-hexa.py** -> *Prints numbers from 0 - 98 in hexadecimal*
+
+**5-print-comb2.py** -> *Prints numbers from 0 to 99*
