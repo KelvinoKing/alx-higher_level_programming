@@ -5,3 +5,5 @@
 **2-print-alphabet.py** -> *Prints the ASCII alphabet*
 
 **3-print-alphabt.py** -> *Prints the ASCII alphabets excluding q & e*
+
+**4-print-hexa.py** -> *Prints numbers from 0 - 98 in hexadecimal*
