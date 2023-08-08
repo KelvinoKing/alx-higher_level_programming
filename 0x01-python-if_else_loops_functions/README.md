@@ -9,3 +9,5 @@
 **4-print-hexa.py** -> *Prints numbers from 0 - 98 in hexadecimal*
 
 **5-print-comb2.py** -> *Prints numbers from 0 to 99*
+
+**6-print-comb3.py** -> *Prints all dif combination of two integers*
