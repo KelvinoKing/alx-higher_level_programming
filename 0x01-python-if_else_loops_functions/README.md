@@ -19,3 +19,5 @@
 **9-print-last-digit.py** -> *Function that prints the last digit of a number*
 
 **10-add.py** -> *Function that add two ints and return results*
+
+**11-pow.py** -> *Function that computes a to the power of b*
