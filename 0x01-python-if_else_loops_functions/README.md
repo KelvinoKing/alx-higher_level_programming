@@ -21,3 +21,5 @@
 **10-add.py** -> *Function that add two ints and return results*
 
 **11-pow.py** -> *Function that computes a to the power of b*
+
+**12-fizzbuzz.py** -> *Function that prints the numbers from 1 to 100 separated by a space*
