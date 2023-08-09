@@ -23,3 +23,7 @@
 **11-pow.py** -> *Function that computes a to the power of b*
 
 **12-fizzbuzz.py** -> *Function that prints the numbers from 1 to 100 separated by a space*
+
+**lists.h** -> *Header file*
+
+**13-insert-number.c** -> *Inserts an integer in a sorted singly linked list*
