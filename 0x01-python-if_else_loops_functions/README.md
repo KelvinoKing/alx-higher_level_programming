@@ -13,3 +13,5 @@
 **6-print-comb3.py** -> *Prints all dif combination of two integers*
 
 **7-islower.py** -> *Checks for lowercase character*
+
+**8-uppercase.py** -> *Prints a string in uppercase followed by new line*
