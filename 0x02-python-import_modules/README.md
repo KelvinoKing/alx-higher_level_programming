@@ -3,3 +3,5 @@
 **1-calculation.py** -> *imports functions from the file calculator_1.py, does some Maths, and prints the result*
 
 **2-args.py** -> *Prints the number of and the list of its arguments*
+
+**3-infinite-add.py** -> *Prints the result of the addition of all arguments*
