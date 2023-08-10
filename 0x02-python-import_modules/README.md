@@ -7,3 +7,5 @@
 **3-infinite-add.py** -> *Prints the result of the addition of all arguments*
 
 **4-hidden-discovery.py** -> *Prints all the names defined by the compiled module hidden_4.pyc*
+
+**5-variable-load.py** -> *imports the variable a from the file variable_load_5.py and prints its value.*
