@@ -7,3 +7,5 @@
 **3-print-reversed-list-integer.py** -> *Prints all integers of a list in reverse*
 
 **4-new-in-list.py** -> *Replaces an element in a list at a specific position without modifying the original list*
+
+**5-no-c.py** -> *Removes all characters c and C from a string*
