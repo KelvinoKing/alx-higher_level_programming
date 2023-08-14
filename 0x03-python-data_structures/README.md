@@ -11,3 +11,5 @@
 **5-no-c.py** -> *Removes all characters c and C from a string*
 
 **6-print-matrix-integer.py** -> *Prints a matrix of integers*
+
+**7-add-tuples.py** -> *Adds two tuples*
