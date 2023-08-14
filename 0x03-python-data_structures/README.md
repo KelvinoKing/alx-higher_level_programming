@@ -5,3 +5,5 @@
 **2-replace-in-list.py** -> *Replaces an element of a list at a specific position*
 
 **3-print-reversed-list-integer.py** -> *Prints all integers of a list in reverse*
+
+**4-new-in-list.py** -> *Replaces an element in a list at a specific position without modifying the original list*
