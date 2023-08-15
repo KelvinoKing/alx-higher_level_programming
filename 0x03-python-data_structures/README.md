@@ -13,3 +13,5 @@
 **6-print-matrix-integer.py** -> *Prints a matrix of integers*
 
 **7-add-tuples.py** -> *Adds two tuples*
+
+**8-multiple-returns.py** -> *Returns a tuple with the length of a string and its first character*
