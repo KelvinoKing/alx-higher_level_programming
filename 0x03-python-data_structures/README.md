@@ -17,3 +17,5 @@
 **8-multiple-returns.py** -> *Returns a tuple with the length of a string and its first character*
 
 **9-max-integer.py** -> *Finds the biggest integer of a list*
+
+**10-divisible-by-2.py** -> *Finds multiples of 2 in a list*
