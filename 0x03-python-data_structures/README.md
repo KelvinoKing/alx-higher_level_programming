@@ -19,3 +19,5 @@
 **9-max-integer.py** -> *Finds the biggest integer of a list*
 
 **10-divisible-by-2.py** -> *Finds multiples of 2 in a list*
+
+**11-delete-at.py** -> *Deletes an item at a specific position in a list*
