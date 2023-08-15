@@ -15,3 +15,5 @@
 **7-add-tuples.py** -> *Adds two tuples*
 
 **8-multiple-returns.py** -> *Returns a tuple with the length of a string and its first character*
+
+**9-max-integer.py** -> *Finds the biggest integer of a list*
