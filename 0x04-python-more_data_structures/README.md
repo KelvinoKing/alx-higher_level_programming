@@ -7,3 +7,5 @@
 **3-common-elements.py** -> *Returns a set of common elements in two sets*
 
 **4-only-diff-elements.py** -> *Returns a set of all elements present in only one set*
+
+**5-number-keys.py** -> *Returns the number of keys in a dictionary*
