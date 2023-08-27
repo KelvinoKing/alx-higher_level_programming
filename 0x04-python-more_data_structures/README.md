@@ -11,3 +11,5 @@
 **5-number-keys.py** -> *Returns the number of keys in a dictionary*
 
 **6-print-sorted-dictionary.py** -> *Prints a dic by ordered keys*
+
+**7-update-dictionary.py** -> *Replaces or adds key/value in a dictionary*
