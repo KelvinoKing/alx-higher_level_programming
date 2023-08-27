@@ -9,3 +9,5 @@
 **4-only-diff-elements.py** -> *Returns a set of all elements present in only one set*
 
 **5-number-keys.py** -> *Returns the number of keys in a dictionary*
+
+**6-print-sorted-dictionary.py** -> *Prints a dic by ordered keys*
