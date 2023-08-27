@@ -13,3 +13,5 @@
 **6-print-sorted-dictionary.py** -> *Prints a dic by ordered keys*
 
 **7-update-dictionary.py** -> *Replaces or adds key/value in a dictionary*
+
+**8-simple-delete.py** -> *Deletes a key in a dictionary*
