@@ -15,3 +15,5 @@
 **7-update-dictionary.py** -> *Replaces or adds key/value in a dictionary*
 
 **8-simple-delete.py** -> *Deletes a key in a dictionary*
+
+**9-multiply-by-2.py** -> *returns a new dictionary with all values multiplied by 2*
