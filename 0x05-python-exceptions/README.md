@@ -11,3 +11,5 @@
 **5-raise-exception.py** -> *Raises a type exception*
 
 **6-raise-exception-msg.py** -> *Raises a name exception with a message*
+
+**100-safe-print-integer-err.py** -> *Prints an integer*
