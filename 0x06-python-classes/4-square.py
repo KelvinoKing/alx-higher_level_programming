@@ -7,7 +7,7 @@ Square class
 class Square:
     """The class uses setters and getter methods to set and retrive the size"""
 
-    def __init__(self, size):
+    def __init__(self, size=0):
         """__init__ method to initialize value
 
         args:
