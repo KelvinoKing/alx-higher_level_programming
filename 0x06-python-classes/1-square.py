@@ -5,10 +5,10 @@ class Square():
     """Defines a square by attribute of size."""
 
     def __init__(self, size):
-        """Creates a class with a specified size.
+        """__init__ medhod to initialize class with a specified size.
 
         Args:
-            size: Initializes the size of the square
+            size (int): Initializes the size of the square
 
         """
         self.__size = size
