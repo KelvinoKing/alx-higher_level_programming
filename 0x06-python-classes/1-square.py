@@ -1,7 +1,10 @@
 #!/usr/bin/python3
+"""
+Square class
+"""
 
 
-class Square():
+class Square:
     """Defines a square by attribute of size."""
 
     def __init__(self, size):
