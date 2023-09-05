@@ -1,0 +1,40 @@
+"""
+Adds two integers
+
+>>> add_integer = __import__('0-add_integer').add_integer
+
+If parameters of function are not integers raise exceptions
+
+>>> add_integer('a', 2)
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+>>> add_integer(3, 'b')
+Traceback (most recent call last):
+TypeError: b must be an integer
+
+>>> add_integer("3", "4")
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+Test if a or b are negative numbers
+
+>>> add_integer(-2, -3)
+-5
+>>> add_integer(-2, 3)
+1
+>>> add_integer(3, -2)
+1
+>>> add_integer(3, 2)
+5
+
+Test with float numbers
+
+>>> add_integer(2.0, 3)
+5
+>>> add_integer(3, 2.0)
+5
+>>> add_integer(3.0, 2.0)
+5
+
+"""
