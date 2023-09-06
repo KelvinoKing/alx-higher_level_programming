@@ -1,0 +1,60 @@
+Import say_my_name module from 3-say_my_name
+
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+__________________________
+TEST ON DATA TYPES PASSED
+__________________________
+
+#first = str, last = str
+>>> say_my_name("Kelvin", "Njoroge")
+My name is Kelvin Njoroge
+
+#first = str
+>>> say_my_name("Kelvin")
+My name is Kelvin 
+
+#first = "", last = ""
+>>> say_my_name("", "")
+My name is  
+
+#first != str, last = str
+>>> say_my_name(3, "Njoroge")
+Traceback (most recent call last):
+...
+TypeError: first_name must be a string
+
+#first = str, last != str
+>>> say_my_name("Kelvin", 2)
+Traceback (most recent call last):
+...
+TypeError: last_name must be a string
+
+#first != str, last != str
+>>> say_my_name(3, 4.0)
+Traceback (most recent call last):
+...
+TypeError: first_name must be a string
+
+
+_________________________________
+TEST IF ANY PARAMETER IS NONE
+_________________________________
+
+#first = None, last = str
+>>> say_my_name(None, "Njoroge")
+Traceback (most recent call last):
+...
+TypeError: first_name must be a string
+
+#first = str, last = None
+>>> say_my_name("Kelvin", None)
+Traceback (most recent call last):
+...
+TypeError: last_name must be a string
+
+#first = None, last = None
+>>> say_my_name(None, None)
+Traceback (most recent call last):
+...
+TypeError: first_name must be a string
