@@ -25,6 +25,10 @@ TypeError: b must be an integer
 Traceback (most recent call last):
 TypeError: a must be an integer
 
+>>> add_integer('Kelvin')
+Traceback (most recent call last):
+TypeError: a must be an integer
+
 Test if a or b are negative numbers
 
 >>> add_integer(-2, -3)
@@ -44,3 +48,17 @@ Test with float numbers
 5
 >>> add_integer(3.0, 2.0)
 5
+
+Test for missing numbers
+
+>>> add_integer(None, 89)
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+>>> add_integer(8, None)
+Traceback (most recent call last):
+TypeError: b must be an integer
+
+>>> add_integer(None)
+Traceback (most recent call last):
+TypeError: a must be an integer
