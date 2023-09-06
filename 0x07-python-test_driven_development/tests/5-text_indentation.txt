@@ -1,0 +1,37 @@
+From 5-text_indentation import text_indentation
+
+>>> text = __import__('5-text_indentation').text_indentation
+
+_____________________________
+TEST WITH DIFFERENT PARAMS OF VARIOUS DATA TYPES
+________________________________________________
+
+#text = str
+>>> text("""Kelvin is a good boy. What about you son? I know: right""")
+Kelvin is a good boy.
+<BLANKLINE>
+What about you son?
+<BLANKLINE>
+I know:
+<BLANKLINE>
+right
+
+#test = str
+>>> text("""hello""")
+hello
+
+#text = int
+>>> text(2)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
+#text = None
+>>> text(None)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
+#text = ""
+>>> text("")
+
