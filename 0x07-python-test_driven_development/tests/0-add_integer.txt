@@ -1,9 +1,8 @@
-"""
-Adds two integers
+Imports the ``0-add_integer`` module
+======================================
 
-args:
-	a: first param
-	b: second param
+use ``add_integer`` function
+-----------------------
 
 >>> add_integer = __import__('0-add_integer').add_integer
 
