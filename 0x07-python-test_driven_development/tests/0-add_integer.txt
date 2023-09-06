@@ -17,7 +17,7 @@ If parameters of function are not integers raise exceptions
 Traceback (most recent call last):
 TypeError: a must be an integer
 
->>> add_integer(3, 'b')
+>>> add_integer(2, 'b')
 Traceback (most recent call last):
 TypeError: b must be an integer
 
@@ -55,7 +55,7 @@ Test for missing numbers
 Traceback (most recent call last):
 TypeError: a must be an integer
 
->>> add_integer(8, None)
+>>> add_integer(89, None)
 Traceback (most recent call last):
 TypeError: b must be an integer
 
