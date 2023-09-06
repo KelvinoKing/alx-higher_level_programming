@@ -1,12 +1,13 @@
-Imports the ``0-add_integer`` module
-======================================
+The ``0-add_integer`` module
+======================
 
-use ``add_integer`` function
------------------------
+Using ``add_integer``
+-------------------
 
-First import ``add_integer`` from the ``0-add_integer`` module:
+This is an example text file in reStructuredText format.  First import
+``add_integer`` from the ``0-add_integer`` module:
 
---------------------------------
+-------------------
 
 >>> add_integer = __import__('0-add_integer').add_integer
 
