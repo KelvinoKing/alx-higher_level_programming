@@ -1,0 +1,46 @@
+From 4-print_square import print_square
+
+>>> print_square = __import__('4-print_square').print_square
+
+__________________________
+TEST TYPE OF DATA PASED
+__________________________
+
+#size = int
+>>> print_square(2)
+##
+##
+
+#size = str
+>>> print_square("2")
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+#size = float
+>>> print_square(2.1)
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+___________________________________
+ERRORS CAUSED BY VALUE OF INTEGER PASSED
+________________________________________
+
+#size < 0
+>>> print_square(-1)
+Traceback (most recent call last):
+...
+ValueError: size must be >= 0
+
+#size = float < 0
+>>> print_square(-1.2)
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+#size = None
+>>> print_square(None)
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
