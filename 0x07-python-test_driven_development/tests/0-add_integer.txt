@@ -11,63 +11,46 @@ This is an example text file in reStructuredText format.  First import
 
 >>> add_integer = __import__('0-add_integer').add_integer
 
+If parameters of function are not integers raise exceptions
 
-# a = int, b = int
->>> add_integer(5, 2)
-7
+>>> add_integer('a', 2)
+Traceback (most recent call last):
+TypeError: a must be an integer
 
-# a = negative int, b =  int
->>> add_integer(-5, 2)
--3
+>>> add_integer('3', '4')
+Traceback (most recent call last):
+TypeError: a must be an integer
 
-# a = 0, b = int
+>>> add_integer('Kelvin')
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+Test if a or b are negative numbers
+
+>>> add_integer(-2, 3)
+1
+>>> add_integer(3, -2)
+1
+>>> add_integer(3, 2)
+5
 >>> add_integer(0, 2)
 2
 
-# a = float, b = int
->>> add_integer(1.2, 2)
-3
+Test with float numbers
 
-# a = int, b = float
->>> add_integer(1, 2.6)
-3
+>>> add_integer(2.0, 3)
+5
+>>> add_integer(3, 2.0)
+5
+>>> add_integer(3.0, 2.0)
+5
 
-# a = float, b = float
->>> add_integer(5.9, 5.9)
-10
+Test for missing numbers
 
-# a = None, b = int
 >>> add_integer(None, 89)
 Traceback (most recent call last):
-...
 TypeError: a must be an integer
 
-# a = int, b = None
->>> add_integer(89, None)
-Traceback (most recent call last):
-...
-TypeError: b must be an integer
-
-# a = None
 >>> add_integer(None)
 Traceback (most recent call last):
-...
-TypeError: a must be an integer
-
-# a = str
->>> add_integer('puppy')
-Traceback (most recent call last):
-...
-TypeError: a must be an integer
-
-# a = int, b = str
->>> add_integer(5, 'doggo')
-Traceback (most recent call last):
-...
-TypeError: b must be an integer
-
-# a = str, b = str
->>> add_integer('brekkie', 'dindin')
-Traceback (most recent call last):
-...
 TypeError: a must be an integer
