@@ -1,13 +1,13 @@
 From 5-text_indentation import text_indentation
 
->>> text = __import__('5-text_indentation').text_indentation
+>>> text_indentation = __import__('5-text_indentation').text_indentation
 
 _____________________________
 TEST WITH DIFFERENT PARAMS OF VARIOUS DATA TYPES
 ________________________________________________
 
 #text = str
->>> text("""Kelvin is a good boy. What about you son? I know: right""")
+>>> text_indentation("""Kelvin is a good boy. What about you son? I know: right""")
 Kelvin is a good boy.
 <BLANKLINE>
 What about you son?
@@ -17,21 +17,30 @@ I know:
 right
 
 #test = str
->>> text("""hello""")
+>>> text_indentation("""hello""")
 hello
 
 #text = int
->>> text(2)
+>>> text_indentation(2)
 Traceback (most recent call last):
 ...
 TypeError: text must be a string
 
 #text = None
->>> text(None)
+>>> text_indentation(None)
 Traceback (most recent call last):
 ...
 TypeError: text must be a string
 
 #text = ""
->>> text("")
+>>> text_indentation("")
 
+>>> text_indentation("Kelvin", "Kelvin")
+Traceback (most recent call last):
+...
+TypeError: text_indentation() takes 1 positional argument but 2 were given
+
+>>> text_indentation()
+Traceback (most recent call last):
+...
+TypeError: text_indentation() missing 1 required positional argument: 'text'
