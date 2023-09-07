@@ -57,3 +57,8 @@ class TestMaxInteger(unittest.TestCase):
     def test_stringArg(self):
         """Tests if a string is passed"""
         self.assertEqual(max_integer("Shool"), "o")
+
+    def test_multipleMax(self):
+        """Test when two equal large values are in list"""
+        result = max_integer([3, 76, 34, 76, 32, 76, 23, 30])
+        self.assertEqual(result, 76)
