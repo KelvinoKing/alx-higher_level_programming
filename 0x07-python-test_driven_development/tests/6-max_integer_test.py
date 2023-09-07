@@ -43,3 +43,8 @@ class TestMaxInteger(unittest.TestCase):
         """Test when the input list contains non-integer elements."""
         with self.assertRaises(TypeError):
             max_integer([1, 3, "2", True, "apple"])
+
+    def test_no_parameter(self):
+        """Test when no parameter is passed (should raise TypeError)."""
+        result = max_integer()
+        self.assertEqual(result, None)
