@@ -48,3 +48,8 @@ class TestMaxInteger(unittest.TestCase):
         """Test when no parameter is passed (should raise TypeError)."""
         result = max_integer()
         self.assertEqual(result, None)
+
+    def test_noneArg(self):
+        """Test when None is passed"""
+        with self.assertRaises(TypeError):
+            max_integer(None)
