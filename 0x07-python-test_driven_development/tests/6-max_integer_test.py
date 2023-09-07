@@ -53,3 +53,7 @@ class TestMaxInteger(unittest.TestCase):
         """Test when None is passed"""
         with self.assertRaises(TypeError):
             max_integer(None)
+
+    def test_stringArg(self):
+        """Tests if a string is passed"""
+        self.assertEqual(max_integer("Shool"), "o")
