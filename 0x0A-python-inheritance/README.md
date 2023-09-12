@@ -17,3 +17,5 @@
 ***8-rectangle.py*** -> *class Rectangle that inherits from BaseGeometry (7-base_geometry.py).*
 
 ***9-rectangle.py*** -> *Full rectangle*
+
+***10-square.py*** -> *Square #1*
