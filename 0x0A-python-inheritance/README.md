@@ -11,3 +11,5 @@
 ***5-base_geometry.py*** -> *empty class BaseGeometry*
 
 ***6-base_geometry.py*** -> *class BaseGeometry with a method area()*
+
+***7-base_geometry.py*** -> *Added functionalities*
