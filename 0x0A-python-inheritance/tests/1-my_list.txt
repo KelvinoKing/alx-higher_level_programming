@@ -1,0 +1,32 @@
+At use is print_sorted module
+-----------------------------
+Prints a sorted list
+----------------------------
+MyList class inherits from the list
+_________________________________________
+
+START TEST:
+
+>>> MyList = __import__('1-my_list').MyList
+
+>>> my_list = MyList()
+>>> print(my_list)
+[]
+>>> my_list.append(1)
+>>> my_list.append(4)
+>>> print(my_list)
+[1, 4]
+>>> my_list.print_sorted()
+[1, 4]
+>>> my_list.append(3)
+>>> my_list.append(-2)
+>>> print(my_list)
+[1, 4, 3, -2]
+>>> my_list.print_sorted()
+[-2, 1, 3, 4]
+>>> my_list.pop()
+-2
+>>> print(my_list)
+[1, 4, 3]
+>>> my_list.print_sorted()
+[1, 3, 4]
