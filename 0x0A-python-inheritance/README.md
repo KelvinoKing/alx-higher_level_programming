@@ -19,3 +19,5 @@
 ***9-rectangle.py*** -> *Full rectangle*
 
 ***10-square.py*** -> *Square #1*
+
+***11-square.py*** -> *Square #2*
