@@ -13,3 +13,5 @@
 ***6-base_geometry.py*** -> *class BaseGeometry with a method area()*
 
 ***7-base_geometry.py*** -> *Added functionalities*
+
+***8-rectangle.py*** -> *class Rectangle that inherits from BaseGeometry (7-base_geometry.py).*
