@@ -3,3 +3,5 @@
 ***1-write_file.py*** -> *writes a string to a text file*
 
 ***2-append_write.py*** -> *Appends a string at the end of a file*
+
+***3-to_json_string.py*** -> *Returns a JSON representation of an object*
