@@ -5,3 +5,5 @@
 ***2-append_write.py*** -> *Appends a string at the end of a file*
 
 ***3-to_json_string.py*** -> *Returns a JSON representation of an object*
+
+***4-from_json_string.py*** -> *Returns an obj represented by a JSON string*
