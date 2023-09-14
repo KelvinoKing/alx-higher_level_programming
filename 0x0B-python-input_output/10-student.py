@@ -22,8 +22,8 @@ class Student(object):
         """
 
         obj_dict = self.__dict__
-        if not attrs:
-            return obj_dict
+        if attrs is None:
+            return self.__dict__
         else:
             filterd_dict = {}
             for att in attrs:
