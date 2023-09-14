@@ -43,8 +43,8 @@ class Rectangle:
         """
         return self.height * self.width
 
-    def parameter(self):
-        """returns parameter
+    def perameter(self):
+        """returns perimeter
         """
         if self.width == 0 or self.height == 0:
             return 0
