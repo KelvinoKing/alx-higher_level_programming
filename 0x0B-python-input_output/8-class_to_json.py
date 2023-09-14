@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""class_to_json
+returns a dictionary rep of a class
+"""
 
 
 def class_to_json(obj):
