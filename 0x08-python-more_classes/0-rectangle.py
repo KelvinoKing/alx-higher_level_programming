@@ -5,6 +5,4 @@ empty class
 
 
 class Rectangle(object):
-    """empty class
-    """
     pass
