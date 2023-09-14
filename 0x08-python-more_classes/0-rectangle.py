@@ -4,5 +4,7 @@ empty class
 """
 
 
-class Rectangle(object):
+class Rectangle:
+    """empty class
+    """
     pass
