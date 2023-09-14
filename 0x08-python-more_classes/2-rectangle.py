@@ -41,12 +41,12 @@ class Rectangle:
     def area(self):
         """returns area
         """
-        return self.__height * self.__width
+        return self.height * self.width
 
     def parameter(self):
         """returns parameter
         """
-        if self.__width == 0 or self.__height == 0:
+        if self.width == 0 or self.height == 0:
             return 0
         else:
-            return (self.__height + self.__width) * 2
+            return (self.height + self.width) * 2
