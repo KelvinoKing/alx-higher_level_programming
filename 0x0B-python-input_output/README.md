@@ -17,3 +17,5 @@
 ***8-class_to_json*** -> *returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object:*
 
 ***9-student.py*** -> *Class Student that defines a student*
+
+***10-student.py*** -> *class Student that defines a student by: (based on 9-student.py)*
