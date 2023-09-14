@@ -46,7 +46,7 @@ class Rectangle:
     def parameter(self):
         """returns parameter
         """
-        if width == 0 or height == 0:
+        if self.__width == 0 or self.__height == 0:
             return 0
         else:
             return (self.__height + self.__width) * 2
