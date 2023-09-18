@@ -148,7 +148,7 @@ class Rectangle(base.Base):
         for key, value in self.__dict__.items():
             if key == '_Rectangle__width':
                 my_dict['width'] = value
-            if key == '_Rectangle__id':
+            if key == 'id':
                 my_dict['id'] = value
             if key == '_Rectangle__y':
                 my_dict['y'] = value
