@@ -101,3 +101,11 @@ class Rectangle(base.Base):
             for i in range(0, self.__width):
                 print('#', end="")
             print()
+
+    def __str__(self):
+        """
+        returns a string representation of the object
+        """
+        return "[{}] ({}) {}/{} - {}/{}".format(
+                type(self).__name__,
+                self.id, self.x, self.y, self.width, self.height)
