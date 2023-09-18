@@ -99,6 +99,7 @@ class TestRectangleClass(unittest.TestCase):
 
     def test_update_method(self):
         """tests the update method in Rectangle class
+        with args
         """
         r21 = Rectangle(10, 10, 10, 10)
         r21.update(89)
@@ -111,3 +112,20 @@ class TestRectangleClass(unittest.TestCase):
         self.assertEqual(r21.x, 4)
         r21.update(89, 2, 3, 4, 5)
         self.assertEqual(r21.y, 5)
+
+    def test_update_method(self):
+        """test the update method in Rectangle class with kwargs
+        """
+        r22 = Rectangle(10, 10, 10, 10)
+        r22.update(height=1)
+        str_rep = r22.__str__()
+        self.assertEqual(str_rep, '[Rectangle] (9) 10/10 - 10/1')
+        r22.update(width=1, x=2)
+        str_rep = r22.__str__()
+        self.assertEqual(str_rep, '[Rectangle] (9) 2/10 - 1/1')
+        r22.update(y=1, width=2, x=3, id=89)
+        str_rep = r22.__str__()
+        self.assertEqual(str_rep, '[Rectangle] (89) 3/1 - 2/1')
+        r22.update(x=1, height=2, y=3, width=4)
+        str_rep = r22.__str__()
+        self.assertEqual(str_rep, '[Rectangle] (89) 1/3 - 4/2')

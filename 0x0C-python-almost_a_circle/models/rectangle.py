@@ -129,4 +129,14 @@ class Rectangle(base.Base):
                 if i == 4:
                     self.y = arg
         elif len(kwargs) > 0:
-            pass
+            for key, value in kwargs.items():
+                if key == 'id':
+                    self.id = value
+                if key == 'width':
+                    self.width = value
+                if key == 'height':
+                    self.height = value
+                if key == 'x':
+                    self.x = value
+                if key == 'y':
+                    self.y = value
