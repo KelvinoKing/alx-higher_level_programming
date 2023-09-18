@@ -23,7 +23,7 @@ class TestRectangleClass(unittest.TestCase):
         """Rectangle test with args and without"""
         r7 = Rectangle(3, 5)
         r02 = Rectangle(10, 2, 0, 0, 12)
-        self.assertEqual(r7.id, 9)
+        self.assertEqual(r7.id, 10)
         self.assertEqual(r02.id, 12)
         self.assertEqual(r7.x, 0)
         self.assertEqual(r7.y, 0)
@@ -96,3 +96,18 @@ class TestRectangleClass(unittest.TestCase):
         r02 = Rectangle(2, 2, 0, 0, 12)
         str_rep2 = r02.__str__()
         self.assertEqual(str_rep2, '[Rectangle] (12) 0/0 - 2/2')
+
+    def test_update_method(self):
+        """tests the update method in Rectangle class
+        """
+        r21 = Rectangle(10, 10, 10, 10)
+        r21.update(89)
+        self.assertEqual(r21.id, 89)
+        r21.update(89, 2)
+        self.assertEqual(r21.width, 2)
+        r21.update(89, 2, 3)
+        self.assertEqual(r21.height, 3)
+        r21.update(89, 2, 3, 4)
+        self.assertEqual(r21.x, 4)
+        r21.update(89, 2, 3, 4, 5)
+        self.assertEqual(r21.y, 5)
