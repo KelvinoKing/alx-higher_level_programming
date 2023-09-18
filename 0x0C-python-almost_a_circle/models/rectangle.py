@@ -97,8 +97,11 @@ class Rectangle(base.Base):
         """
         prints in stdout the Rectangle instance with character #
         """
-        for i in range(0, self.__height):
-            for i in range(0, self.__width):
+        for i in range(self.y):
+            print()
+        for r in range(self.height):
+            print(' ' * self.x, end="")
+            for c in range(self.width):
                 print('#', end="")
             print()
 
