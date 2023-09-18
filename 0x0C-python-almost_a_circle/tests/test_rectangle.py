@@ -3,6 +3,8 @@
 using unittest
 """
 import unittest
+import io
+import sys
 from models.base import Base
 from models.rectangle import Rectangle
 
@@ -21,7 +23,7 @@ class TestRectangleClass(unittest.TestCase):
         """Rectangle test with args and without"""
         r7 = Rectangle(3, 5)
         r02 = Rectangle(10, 2, 0, 0, 12)
-        self.assertEqual(r7.id, 8)
+        self.assertEqual(r7.id, 9)
         self.assertEqual(r02.id, 12)
         self.assertEqual(r7.x, 0)
         self.assertEqual(r7.y, 0)
@@ -74,12 +76,23 @@ class TestRectangleClass(unittest.TestCase):
         r19 = Rectangle(10, 10)
         self.assertEqual(r19.area(), 100)
 
+    def test_display_method(self):
+        """Test the display method in 
+        class Rectangle
+        """
+        output = io.StringIO()
+        sys.stdout = output
+        my_r = Rectangle(2, 2, 2, 1)
+        my_r.display()
+        sys.stdout = sys.__stdout__
+        self.assertEqual(output.getvalue(), "\n  ##\n  ##\n")
+
     def test_str_method(self):
         """tests the str method in class
         """
         r20 = Rectangle(2, 2)
         str_rep = r20.__str__()
-        self.assertEqual(str_rep, '[Rectangle] (7) 0/0 - 2/2')
+        self.assertEqual(str_rep, '[Rectangle] (8) 0/0 - 2/2')
         r02 = Rectangle(2, 2, 0, 0, 12)
         str_rep2 = r02.__str__()
         self.assertEqual(str_rep2, '[Rectangle] (12) 0/0 - 2/2')
