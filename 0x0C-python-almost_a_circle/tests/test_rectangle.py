@@ -77,7 +77,7 @@ class TestRectangleClass(unittest.TestCase):
         self.assertEqual(r19.area(), 100)
 
     def test_display_method(self):
-        """Test the display method in 
+        """Test the display method in
         class Rectangle
         """
         output = io.StringIO()
