@@ -25,3 +25,15 @@ class Square(rectangle.Rectangle):
         return "[{}] ({}) {}/{} - {}".format(
                 type(self).__name__,
                 self.id, self.x, self.y, self.width)
+
+    @property
+    def size(self):
+        """
+        sets and returns the width and height with the same value
+        """
+        return self.width
+
+    @size.setter
+    def size(self, size):
+        self.width = size
+        self.height = size
