@@ -140,3 +140,20 @@ class Rectangle(base.Base):
                     self.x = value
                 if key == 'y':
                     self.y = value
+
+    def to_dictionary(self):
+        """returns a dictionary of Rectangle
+        """
+        my_dict = {}
+        for key, value in self.__dict__.items():
+            if key == '_Rectangle__width':
+                my_dict['width'] = value
+            if key == '_Rectangle__height':
+                my_dict['height'] = value
+            if key == '_Rectangle__id':
+                my_dict['id'] = value
+            if key == '_Rectangle__x':
+                my_dict['x'] = value
+            if key == '_Rectangle__y':
+                my_dict['y'] = value
+        return my_dict
