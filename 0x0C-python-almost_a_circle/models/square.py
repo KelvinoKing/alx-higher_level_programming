@@ -61,3 +61,12 @@ class Square(rectangle.Rectangle):
                     self.x = value
                 if key == 'y':
                     self.y = value
+
+    def to_dictionary(self):
+        """returns a dictionary representation of
+        the object
+        """
+        my_dict = {}
+        for attr in ['id', 'size', 'x', 'y']:
+            my_dict[attr] = getattr(self, attr)
+        return my_dict
