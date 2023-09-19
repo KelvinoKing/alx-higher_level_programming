@@ -84,5 +84,5 @@ class Base(object):
                 for obj in my_output:
                     my_list.append(cls.create(**obj))
         except Exception:
-            pass
+            return []
         return obj_list
