@@ -2,6 +2,7 @@
 """base
 my class
 """
+import json
 
 
 class Base(object):
@@ -20,3 +21,13 @@ class Base(object):
         else:
             Base.__no_objects += 1
             self.id = Base.__no_objects
+
+    def to_json_string(list_dictionaries):
+        """returns a JSON string representation of
+        list_dictionaries
+        """
+        if list_dictionaries is None:
+            return "[]"
+        if not list_dictionaries:
+            return "[]"
+        return json.dumps(list_dictionaries)
