@@ -79,13 +79,10 @@ class Base(object):
         """
         my_list = []
         try:
-            f = open(cls.__name__ + ".json", 'r', encoding='utf-8')
-            my_output = cls.from_json_string(f.read())
-            for obj in my_output:
-                my_list.append(cls.create(**obj))
+            with open(cls.__name__ + ".json", 'r', encoding='utf-8') as f:
+                my_output = cls.from_json_string(f.read())
+                for obj in my_output:
+                    my_list.append(cls.create(**obj))
         except Exception:
-            close(f)
             return []
-
-        close(f)
-        return obj_list
+        return my_list
