@@ -55,6 +55,8 @@ class Rectangle:
         """prints the rectangle with character #
         """
         my_string = ""
+        if self.width == 0 or self.height == 0:
+            return my_string
         for j in range(self.height):
             for i in range(self.width):
                 my_string += "#"
