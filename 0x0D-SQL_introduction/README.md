@@ -30,3 +30,5 @@
 ***10-top_score.sql*** -> *List all records of the table second_table*
 
 ***11-best_score.sql*** -> *List all records with a score >= 10*
+
+***12-no_cheating.sql*** -> *Updates the score of Bob to 10*
