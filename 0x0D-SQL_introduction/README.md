@@ -47,3 +47,5 @@
 ***101-avg_temperatures.sql*** -> *Displays the average temp(Fahrenheit) by city ordered by temp(descending)*
 
 ***102-top_city.sql*** -> *Displays the top 3 of cities during July and AUGUST*
+
+***103-max_state.sql*** -> *Displays max temp of each state ordered by state*
