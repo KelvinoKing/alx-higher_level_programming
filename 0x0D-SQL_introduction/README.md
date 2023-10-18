@@ -24,3 +24,5 @@
 ***7-insert_value.sql*** -> *Inserts a new row in the table first_table*
 
 ***8-count_89.sql*** -> *Displays the number of records with id = 89*
+
+***9-full_creation.sql*** -> *Creates a table second_table in the database and initialize it with data*
