@@ -26,3 +26,5 @@
 ***8-count_89.sql*** -> *Displays the number of records with id = 89*
 
 ***9-full_creation.sql*** -> *Creates a table second_table in the database and initialize it with data*
+
+***10-top_score.sql*** -> *List all records of the table second_table*
