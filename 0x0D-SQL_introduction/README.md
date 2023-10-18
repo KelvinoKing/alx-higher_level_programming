@@ -20,3 +20,5 @@
 ***5-full_table.sql*** -> *Prints the full description of the table first_table from the database hbtn_0c_0*
 
 ***6-list_values*** -> *Lists all rows of the table first_table*
+
+***7-insert_value.sql*** -> *Inserts a new row in the table first_table*
