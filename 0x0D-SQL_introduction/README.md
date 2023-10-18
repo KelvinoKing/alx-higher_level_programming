@@ -22,3 +22,5 @@
 ***6-list_values*** -> *Lists all rows of the table first_table*
 
 ***7-insert_value.sql*** -> *Inserts a new row in the table first_table*
+
+***8-count_89.sql*** -> *Displays the number of records with id = 89*
