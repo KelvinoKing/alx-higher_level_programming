@@ -34,3 +34,5 @@
 ***12-no_cheating.sql*** -> *Updates the score of Bob to 10*
 
 ***13-change_class.sql*** -> *Removes all records with a score <= 5 in the table second_table*
+
+***14-average.sql*** -> *Computes the score average of all records in the table*
