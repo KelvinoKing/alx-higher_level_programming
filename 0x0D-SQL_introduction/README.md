@@ -38,3 +38,5 @@
 ***14-average.sql*** -> *Computes the score average of all records in the table*
 
 ***15-groups.sql*** -> *Lists the number of records with the same score in the table*
+
+***16-no_link.sql*** -> *Lists all records of the table second_table*
