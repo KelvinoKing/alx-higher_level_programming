@@ -18,3 +18,5 @@
 	- You are not allowed to use the SELECT or SHOW statements
 
 ***5-full_table.sql*** -> *Prints the full description of the table first_table from the database hbtn_0c_0*
+
+***6-list_values*** -> *Lists all rows of the table first_table*
