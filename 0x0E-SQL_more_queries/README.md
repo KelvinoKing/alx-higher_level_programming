@@ -52,3 +52,15 @@ The states table contains only one record where name = California (but the id ca
 Results must be sorted in ascending order by cities.id
 You are not allowed to use the JOIN keyword
 The database name will be passed as an argument of the mysql command*
+
+***9-cities_by_state_join.sql*** -> *lists all cities contained in the database hbtn_0d_usa.
+Each record should display: cities.id - cities.name - states.name
+Results must be sorted in ascending order by cities.id
+You can use only one SELECT statement
+The database name will be passed as an argument of the mysql command*
+
+***10-genre_id_by_show.sql*** -> *lists all shows contained in hbtn_0d_tvshows that have at least one genre linked.
+Each record should display: tv_shows.title - tv_show_genres.genre_id
+Results must be sorted in ascending order by tv_shows.title and tv_show_genres.genre_id
+You can use only one SELECT statement
+The database name will be passed as an argument of the mysql command*
