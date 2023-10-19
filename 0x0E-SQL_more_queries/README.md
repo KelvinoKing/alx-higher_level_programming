@@ -45,4 +45,10 @@ id INT unique, auto generated, can’t be null and is a primary key
 state_id INT, can’t be null and must be a FOREIGN KEY that references to id of the states table
 name VARCHAR(256) can’t be null
 If the database hbtn_0d_usa already exists, your script should not fail
-If the table cities already exists, your script should not fail*
+If the table cities already exists, your script should not fail *
+
+***8-cities_of_california_subquery.sql*** -> *lists all the cities of California that can be found in the database hbtn_0d_usa.
+The states table contains only one record where name = California (but the id can be different, as per the example)
+Results must be sorted in ascending order by cities.id
+You are not allowed to use the JOIN keyword
+The database name will be passed as an argument of the mysql command*
