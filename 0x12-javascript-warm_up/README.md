@@ -21,3 +21,7 @@
 ***10-factorial.js*** -> *Prints a factorial*
 
 ***11-second_biggest.js*** -> *searches the second biggest integer in the list of arguments.*
+
+***12-object.js*** -> *replace the value 12 with 89:*
+
+***13-add.js*** -> *function that returns the addition of 2 integers.*
