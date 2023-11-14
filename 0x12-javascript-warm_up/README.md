@@ -17,3 +17,5 @@
 ***8-square.js*** -> *Prints a square*
 
 ***9-add.js*** -> *Prints addition of two integers*
+
+***10-factorial.js*** -> *Prints a factorial*
