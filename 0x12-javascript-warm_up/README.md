@@ -15,3 +15,5 @@
 ***7-multi_c.js*** -> *Prints x times 'C is fun'*
 
 ***8-square.js*** -> *Prints a square*
+
+***9-add.js*** -> *Prints addition of two integers*
