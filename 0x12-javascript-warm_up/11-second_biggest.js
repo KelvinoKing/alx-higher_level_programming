@@ -11,7 +11,7 @@ function largest (n) {
       secLargest = temp;
       temp = n[i];
     } else if (n[i] > secLargest && n[i] !== temp) {
-        secLargest = n[i];
+      secLargest = n[i];
     }
   }
   return secLargest;
