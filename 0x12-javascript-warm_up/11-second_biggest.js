@@ -4,12 +4,14 @@ const lenArgs = args.length;
 
 function largest (n) {
   let temp = n[0];
-  let secLargest = n[0];
+  let secLargest = -Infinity;
 
   for (let i = 0; i < n.length; i++) {
     if (n[i] > temp) {
       secLargest = temp;
       temp = n[i];
+    } else if (n[i] > secLargest && n[i] !== temp) {
+        secLargest = n[i];
     }
   }
   return secLargest;
