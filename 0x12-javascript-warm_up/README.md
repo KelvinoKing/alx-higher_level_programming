@@ -11,3 +11,5 @@
 ***5-to_integer.js*** -> *prints My number: <first argument converted in integer> if the first argument can be converted to an integer:*
 
 ***6-multi_languages_loop.js*** -> *Same as 1-multi_languages.js*
+
+***7-multi_c.js*** -> *Prints x times 'C is fun'*
