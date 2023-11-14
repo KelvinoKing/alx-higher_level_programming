@@ -9,3 +9,5 @@
 ***4-concat.js*** -> *Prints two arguments passed to it, in the following format: “ is ”*
 
 ***5-to_integer.js*** -> *prints My number: <first argument converted in integer> if the first argument can be converted to an integer:*
+
+***6-multi_languages_loop.js*** -> *Same as 1-multi_languages.js*
