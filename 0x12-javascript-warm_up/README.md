@@ -13,3 +13,5 @@
 ***6-multi_languages_loop.js*** -> *Same as 1-multi_languages.js*
 
 ***7-multi_c.js*** -> *Prints x times 'C is fun'*
+
+***8-square.js*** -> *Prints a square*
