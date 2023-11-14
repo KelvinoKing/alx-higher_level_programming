@@ -19,3 +19,5 @@
 ***9-add.js*** -> *Prints addition of two integers*
 
 ***10-factorial.js*** -> *Prints a factorial*
+
+***11-second_biggest.js*** -> *searches the second biggest integer in the list of arguments.*
