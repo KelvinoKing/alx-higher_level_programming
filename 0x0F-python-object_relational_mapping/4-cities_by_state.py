@@ -28,7 +28,8 @@ if __name__ == "__main__":
                 query = "SELECT \
                         cities.id, cities.name, states.name \
                         FROM `{}`.cities JOIN `hbtn_0e_0_usa`.states \
-                        ON cities.state_id=states.id;".format(database)
+                        ON cities.state_id=states.id \
+                        ORDER BY cities.id ASC;".format(database)
                 cur.execute(query)
                 AllInfo = cur.fetchall()
                 for info in AllInfo:
