@@ -5,6 +5,9 @@ if __name__ == "__main__":
     import MySQLdb
     import sys
 
+    cur = None
+    db = None
+
     if len(sys.argv) != 4:
         print("Requires 4 arguments")
         exit(0)
@@ -22,5 +25,7 @@ if __name__ == "__main__":
         except MySQLdb.Error as e:
             print("MySQL Error[%d]: %s" % (e.args[0], e.args[1]))
         finally:
-            cur.close()
-            db.close()
+            if cur:
+                cur.close()
+            if db:
+                db.close()
