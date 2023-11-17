@@ -25,7 +25,7 @@ if __name__ == "__main__":
         except MySQLdb.Error as e:
             print("MySQL Error[%d]: %s" % (e.args[0], e.args[1]))
         finally:
-            if cur:
+            if cur is not None:
                 cur.close()
-            if db:
+            if db is not None:
                 db.close()
