@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
             with db.cursor() as cur:
                 cur.execute(
-                        "SELECT * FROM states WHERE `name` LIKE 'N%' \
+                        "SELECT * FROM states WHERE `name` LIKE BINARY 'N%' \
                                 ORDER BY `id` ASC")
                 allInfo = cur.fetchall()
                 for info in allInfo:
