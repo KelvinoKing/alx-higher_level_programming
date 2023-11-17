@@ -25,11 +25,10 @@ if __name__ == "__main__":
                 passwd=password, db=database) as db:
 
             with db.cursor() as cur:
-                query = "SELECT \
-                        cities.id, cities.name, states.name \
-                        FROM `{}`.cities JOIN `hbtn_0e_0_usa`.states \
-                        ON cities.state_id=states.id \
-                        ORDER BY cities.id ASC;".format(database)
+                query = "SELECT cities.id, cities.name, states.name \
+                        FROM cities INNER JOIN states \
+                        ON states.id = cities.state_id \
+                        ORDER BY cities.id ASC;"
                 cur.execute(query)
                 AllInfo = cur.fetchall()
                 for info in AllInfo:
