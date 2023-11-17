@@ -11,8 +11,8 @@ if __name__ == "__main__":
             exit(0)
 
         with MySQLdb.connect(
-                host=sys.argv[1], port=3306, user=sys.argv[2],
-                passwd=sys.argv[3], db="hbtn_0e_0_usa") as db:
+                host="localhost", port=3306, user=sys.argv[1],
+                passwd=sys.argv[2], db=sys.argv[3]) as db:
 
             with db.cursor() as cur:
                 cur.execute("SELECT * FROM states ORDER BY `id` ASC")
