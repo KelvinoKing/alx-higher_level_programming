@@ -37,7 +37,7 @@ def list_states_cities(user, password, database):
 
             # Use a tabulation for each City
             for city in state.cities:
-                print("    {}: {}".format(city.id, city.name))
+                print("{}{}: {}".format("\t", city.id, city.name))
 
     except Exception as e:
         print(f"Error: {e}")
