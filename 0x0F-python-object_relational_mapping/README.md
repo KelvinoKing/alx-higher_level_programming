@@ -9,3 +9,5 @@
 ***4-cities_by_state.py*** -> *lists all cities from the database hbtn_0e_4_usa*
 
 ***5-filter_cities.py*** -> *takes in the name of a state as an argument and lists all cities of that state, using the database hbtn_0e_4_usa*
+
+***model_state.py*** -> *python file that contains the class definition of a State and an instance Base = declarative_base()*
