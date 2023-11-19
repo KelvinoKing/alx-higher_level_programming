@@ -25,7 +25,12 @@ def list_states_cities(user, password, database):
         session = Session()
 
         # Query all State objects with their linked City objects
-        states = session.query(State).order_by(State.id).all()
+        states = (
+                session.query(State)
+                .join(City)
+                .order_by(State.id, City.id)
+                .all()
+                )
 
         for state in states:
             print("{}: {}".format(state.id, state.name))
