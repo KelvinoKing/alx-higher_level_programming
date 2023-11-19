@@ -21,3 +21,5 @@
 ***10-model_state_my_get.py*** -> *prints the State object with the name passed as argument from the database hbtn_0e_6_usa*
 
 ***11-model_state_insert.py*** -> *adds the State object “Louisiana” to the database hbtn_0e_6_usa*
+
+***12-model_state_update_id.py*** -> *changes the name of a State object from the database hbtn_0e_6_usa*
