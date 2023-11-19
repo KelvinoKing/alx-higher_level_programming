@@ -25,12 +25,12 @@ def list_first_state(user, password, database):
 
     try:
         session = Session()
-        first_state = session.query(State).order_by(State.id).first()
+        first_state = session.query(State).first()
 
         if first_state:
             print("{}: {}".format(first_state.id, first_state.name))
         else:
-            pass
+            print("Nothing")
 
     except Exception as e:
         print(f"Error: {e}")
