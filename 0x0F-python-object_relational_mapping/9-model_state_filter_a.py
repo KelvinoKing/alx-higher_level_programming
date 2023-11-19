@@ -32,8 +32,6 @@ def list_states_with_a(user, password, database):
         if states_with_a:
             for state in states_with_a:
                 print("{}: {}".format(state.id, state.name))
-        else:
-            print("Nothing")
 
     except Exception as e:
         print(f"Error: {e}")
