@@ -16,6 +16,7 @@ def add_louisiana(user, password, database):
     engine = create_engine(
             "mysql://{}:{}@localhost:3306/{}".format(user, password, database))
 
+    Base.metadata.bind = engine
     Session = sessionmaker(bind=engine)
 
     try:
