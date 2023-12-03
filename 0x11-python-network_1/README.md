@@ -7,3 +7,5 @@
 ***2-post_email.py*** -> *script that takes in a URL and an email, sends a POST request to the passed URL with the email as a parameter, and displays the body of the response (decoded in utf-8)*
 
 ***3-error_code.py*** -> * script that takes in a URL, sends a request to the URL and displays the body of the response (decoded in utf-8).*
+
+***4-hbtn_status.py*** -> *script that fetches https://alx-intranet.hbtn.io/status.You must use the package requests*
