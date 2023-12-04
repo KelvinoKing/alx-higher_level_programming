@@ -15,7 +15,7 @@ if __name__ == "__main__":
 
     auth = (username, access_token)
 
-    r = requests.get(api_url, auth=auth)
+    r = requests.get(url, auth=auth)
 
     if r.status_code == 200:
         user_data = r.json()
