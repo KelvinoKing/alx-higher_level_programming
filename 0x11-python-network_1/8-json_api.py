@@ -21,7 +21,7 @@ if __name__ == "__main__":
         json_data = r.json()
 
         if json_data:
-            print(f"{[json_data['id']]} {json_data['name']}")
+            print(f"{[{json_data['id']}] {json_data['name']}")
         else:
             print("Not result")
 
