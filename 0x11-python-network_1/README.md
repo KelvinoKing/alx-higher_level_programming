@@ -17,3 +17,5 @@
 ***7-error_code.py*** -> *script that takes in a URL, sends a request to the URL and displays the body of the response.*
 
 ***8-json_api.py*** -> *script that takes in a letter and sends a POST request to http://0.0.0.0:5000/search_user with the letter as a parameter.*
+
+***10-my_github.py*** -> *script that takes your GitHub credentials (username and password) and uses the GitHub API to display your id*
