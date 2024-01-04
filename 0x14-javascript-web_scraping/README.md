@@ -7,3 +7,5 @@
 ***2-statuscode.js*** -> *script that display the status code of a GET request.The first argument is the URL to request (GET),the status code must be printed like this: code: <status code>, you must use the module request*
 
 ***3-starwars_title.js*** -> *script that prints the title of a Star Wars movie where the episode number matches a given integer. The first argument is the movie ID, you must use the Star wars API with the endpoint https://swapi-api.alx-tools.com/api/films/:id, you must use the module request*
+
+***4-starwars_count.js*** -> *script that prints the number of movies where the character “Wedge Antilles” is present.The first argument is the API URL of the Star wars API: https://swapi-api.alx-tools.com/api/films/, wedge Antilles is character ID 18 - your script must use this ID for filtering the result of the API, you must use the module request*
