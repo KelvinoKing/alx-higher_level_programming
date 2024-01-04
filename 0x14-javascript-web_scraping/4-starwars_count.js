@@ -12,14 +12,13 @@ function getTitle (url) {
       const pageResults = JSON.parse(body);
 
       for (let i = 0; i < pageResults.count; i++) {
-	      const myResults = pageResults.results[i];
+        const myResults = pageResults.results[i];
+        const myChars = myResults.characters;
+        const countValue = myChars.includes('https://swapi-api.alx-tools.com/api/people/18/');
 
-	      const myChars = myResults.characters;
-	      const countValue = myChars.includes(
-		      'https://swapi-api.alx-tools.com/api/people/18/'
-	      );
-
-	      if (countValue) { count++; }
+        if (countValue) {
+          count++;
+        }
       }
       console.log(count);
     } else {
