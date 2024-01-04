@@ -12,8 +12,8 @@ function countMoviesWithCharacter (apiUrl, characterId) {
       const films = JSON.parse(body).results;
 
       films.forEach(film => {
-        const characters = film.characters;
-        if (characters.includes(`https://swapi-api.alx-tools.com/api/people/${characterId}/`)) {
+        const characters = film.characters.find(character => character.endsWith('/18/'));
+        if (characters) {
           count++;
         }
       });
