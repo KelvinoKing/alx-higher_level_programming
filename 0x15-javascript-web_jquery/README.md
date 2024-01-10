@@ -13,3 +13,5 @@
 ***5-script.js*** -> *adds a <li> element to a list when the user clicks on the tag DIV#add_item*
 
 ***6-script.js*** -> *script that updates the text of the <header> element to New Header!!! when the user clicks on DIV#update_header*
+
+***7-script.js*** -> *script that fetches the character name from this URL: https://swapi-api.alx-tools.com/api/people/5/?format=json*
