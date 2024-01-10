@@ -17,3 +17,5 @@
 ***7-script.js*** -> *script that fetches the character name from this URL: https://swapi-api.alx-tools.com/api/people/5/?format=json*
 
 ***8-script.js*** -> *script that fetches and lists the title for all movies by using this URL: https://swapi-api.alx-tools.com/api/films/?format=json. All movie titles must be list in the HTML tag UL#list_movies*
+
+***9-script.js*** -> *script that fetches from https://hellosalut.stefanbohacek.dev/?lang=fr and displays the value of hello from that fetch in the HTML tag DIV#hello*
